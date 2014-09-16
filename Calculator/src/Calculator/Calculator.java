@@ -140,7 +140,7 @@ public class Calculator extends JFrame implements ActionListener{
 		if(ae.getSource() == button[0]){
 			display.append("7");
 		}
-		if(ae.getSource() == button[0]){
+		if(ae.getSource() == button[1]){
 			display.append("8");
 		}
 		if(ae.getSource() == button[2]){
