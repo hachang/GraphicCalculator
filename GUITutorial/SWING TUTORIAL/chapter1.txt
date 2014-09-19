@@ -1,0 +1,38 @@
+Chpater 1 - Swing Overview
+
+	- Component set
+	- Event handling & Layout managment : common to both AWT and Swing components.
+	- undo/redo framework
+	- Swing Set2 Demontstration
+	- Where in the book all these capabilites are discussed in detail
+
+-Swing Components
+	- one big group of components
+
+- AWT Component Replacements
+	- AWT components - insufficient for real-word, forms-based application.
+			 - existing set - to small and far too restrictive.
+			
+- all of Swing is built on top of the core AWT libraries.
+
+- Basic distinction of AWT and Swing
+	- In most cases, the Swing compoent class names begin with J and AWT ones don't.
+	- At the API level, the Swing components are almost always superset of features the AWT components support.
+
+- While, AWT components rely on the user's operating system to provid ethe actual component to Java program, Swing components
+are all controlled from withing the Java runttime.
+
+-Some additional Swing components that are not in AWT
+	JPasswordFiled : for password entry
+	JEditorPane and JTextPane: support for displaying and editing multiple-attributed component.
+	JTable: provides for the display of two-dimensional row and column information, such as stock quotes, as in the ex shown.
+	JTree: display of hierarchical data.
+	JTooltip: f
+
+
+-Event Handling and Layout Managmenet
+	- layout managers: control screen layout.
+
+-Undo framework
+	- situated within the javax.swing class ierarchy - javax.swing.undo class offer a framework for supprotning undo and redo capabilities
+	wiht Java programs.

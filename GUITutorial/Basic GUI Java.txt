@@ -1,0 +1,20 @@
+- Java provides a hierarchy of classes useful in creating GUI's
+	
+	- Everything in the hierarchy descends from the class Component
+		- Useful methods such as:
+			- setBackgroundColor
+			- setFont
+		
+	- Container - next class in the hiearchy
+		- defines methods that are useful for maintaining a list of components that the container stores. 
+			- ex. : text boxes
+			- labels, etc
+			- methods: add and remove.
+
+	- Window - hierarchy contains classes that are useful in creating windwos(known as Frames), 
+	- JComponent - contains calsses that can be used to create the GUI components usd in the window.
+		
+		- WindowEvent - indicates that a window has changed its status.
+
+
+-GUI programs often have to miport both packages, as they may use classes from each.
